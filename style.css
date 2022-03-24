@@ -13,7 +13,7 @@
     display: flex;
     max-width: 992px;
     width: 100%;
-    min-width: 320px;
+    min-width: 440px;
     padding: 10px 10px;
 }
 
@@ -28,6 +28,9 @@ header{
     height: 100px;
     margin: auto;
     color: white;
+    padding: 10px 10px;
+    min-width: 440px;
+    width: 100%;
 }
 
 .menu{
@@ -39,7 +42,7 @@ header{
 header ul{
     display: flex;
     width: 100%;
-    max-width: 260px;
+    max-width: 320px;
     justify-content: space-between;
 }
 
@@ -54,8 +57,9 @@ header a{
 }
 
 header a:hover{
-    color: lightblue;
-    transition: 1s;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
 
 .apresentacao{
@@ -120,6 +124,7 @@ header a:hover{
 #quem-somos p{
     margin-bottom: 10px;
     width: 90%;
+    text-align: justify;
 }
 
 #quem-somos img{
